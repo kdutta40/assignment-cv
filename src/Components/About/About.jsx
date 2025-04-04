@@ -5,8 +5,8 @@ const About = ({mode}) => {
     <>
         <div className={styles.top}>
             <div className={styles.imageContainer}>
-                <img  className= {styles.lgc} src="src\assets\left_grey_circle.png" alt="background" />
-                <img className={styles.hand}src="src\assets\hand.png" alt="overlay" />
+                <img  className= {styles.lgc} src="/images/left_grey_circle.png" alt="background" />
+                <img className={styles.hand}src="/images/hand.png" alt="overlay" />
             </div>
             <div className={styles.para}>
                     <h1 className={styles.heading}><strong>T</strong>his is it. ;)</h1>
@@ -29,25 +29,25 @@ const About = ({mode}) => {
                     </p>
             </div> 
             <div className={styles.ryc}>
-                <img src="src\assets\right_yellow_circle.png" alt="" />
+                <img src="/images/right_yellow_circle.png" alt="" />
             </div>
         </div>
         <div className={styles.bottom}>
             <div className={styles.icon_yc}>
                 <ul className={mode ?styles.white :styles.black}>
-                            <li><img src="src\assets\Facebook.png" alt="" srcset="" /></li>
-                            <li><img src="src\assets\Instagram.png" alt="" /></li>
-                            <li><img src="src/assets/Twitter.png" alt="" srcset="" /></li>
-                            <li><img src="src\assets\GitHub.png" alt="" srcset="" /></li>
-                            <li><img src="src\assets\LinkedIn.png" alt="" srcset="" /></li>
-                            <li><img src="src\assets\Telegram.png" alt="" srcset="" /></li>
-                            <li><img src="src\assets\Koo.png" alt="" srcset="" /></li>
+                            <li><img src="/images/Facebook.png" alt="" srcset="" /></li>
+                            <li><img src="/images/Instagram.png" alt="" /></li>
+                            <li><img src="/images/Twitter.png" alt="" srcset="" /></li>
+                            <li><img src="/images/GitHub.png" alt="" srcset="" /></li>
+                            <li><img src="/images/LinkedIn.png" alt="" srcset="" /></li>
+                            <li><img src="/images/Telegram.png" alt="" srcset="" /></li>
+                            <li><img src="/images/Koo.png" alt="" srcset="" /></li>
                             
                 </ul>
-                <img src="src\assets\bottom_yellow_circle.png" alt="" />
+                <img src="/images/bottom_yellow_circle.png" alt="" />
                 <hr className={styles.bot_hr} />
-                <img src="src\assets\bottom_grey_circle.png" alt="" srcset="" />
-                <img src="src\assets\Email.png" className={mode ?styles.w :styles.b} alt="" />
+                <img src="/images/bottom_grey_circle.png" alt="" srcset="" />
+                <img src="/images/Email.png" className={mode ?styles.w :styles.b} alt="" />
             </div>
 
         </div>
