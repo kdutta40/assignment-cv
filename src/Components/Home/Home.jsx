@@ -28,7 +28,7 @@ const Home = ({mode}) => {
           </div>  
         </div>
         <div className={styles.pic}>
-          <img src="src\assets\Image.png" alt="" />
+          <img src="/images/Image.png" alt="" />
         </div>
         <div className={styles.mail} >
           <img src="src\assets\Email.png"  className={mode ?styles.w :styles.b} srcset="" />
