@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+}
+.contactBtns ul{
+    margin-top: 470px;
+    list-style: none;
+    
+}
+.contactBtns ul li img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.white li img{
+   filter: invert(100%); 
+}
+.cv{
+    background-image: url("/public/CV Button.png");
+    background-size: cover; 
+    background-position: center ;
+    
+    width: 150px; 
+    height: 50px; 
+  
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: transparent ;
+    padding: 0; 
+    margin: 0;
+  
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  
+}
+.cv:hover{
+    opacity: 0.5;
+}
+.contact{
+    background-image: url("/public/Touch Button.jpg");
+    background-size: cover; 
+    background-position: center ;
+    
+    width: 150px; 
+    height: 50px; 
+  
+    background-color: transparent ;
+    padding: 0; 
+    margin: 0;
+    border: 2px solid;
+    border-radius: 8px;
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact:hover{
+    opacity: 0.5;
+}
+.info{
+    margin-top: 150px;
+    margin-left: 160px;
+  }
+.btns{
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+    
+}
+.info h1{
+    font-size: 50px;
+}
+.line{
+    text-decoration-line: underline;
+    
+}
+.anish{
+    color: rgb(158, 158, 158);
+}
+.info p{
+    font-size: 23px;
+    color: rgb(127, 126, 126);
+}
+.pic img{
+    width:600px ;
+    height: 593px ;
+}
+.mail{
+    margin-top: 400px;
+    margin-right: 10px;
+}
+.w{
+    filter: invert(100%);
+}

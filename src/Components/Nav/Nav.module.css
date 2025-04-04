@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 18px;
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+.list{
+    display: flex;
+    gap: 10px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+.list ul li:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.list img{
+    margin-left: 30px;
+}
+.list img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.name h1{
+    width: 265px;
+    height: 29px;
+    
+}

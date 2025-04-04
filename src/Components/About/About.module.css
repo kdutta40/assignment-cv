@@ -1,0 +1,95 @@
+.top{
+    display: flex;
+    width: 100%;
+}
+.para{
+    max-width: 700px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.imageContainer{
+    position: relative;
+    width: 300px;
+    height: 380px;
+}
+.lgc{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top:40px;
+}
+.hand{
+    position: absolute;
+    top: 20px;  
+    width: 300px; 
+    height: auto;
+}
+
+.heading {
+  font-size: 2rem;
+}
+  
+
+.line {
+  width: 50px;
+  border: none;
+  border-top: 2px solid black;
+  margin-left: 400px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.heading strong{
+    font-size: 3rem ;    
+} 
+  .paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+.top_hr{
+    width: 60%;
+    margin-left: 230px;
+    border: 1px solid;
+}
+.ryc{
+    display: flex;
+    justify-content: end;
+    max-width: 300px;
+    padding-left: 0px;    
+    
+
+}
+.ryc img {
+    margin-top: 40px;
+    height: auto;
+    width: 70%;
+    
+}
+.icon_yc{
+  display: flex;
+  justify-content: space-between;
+}
+.icon_yc ul{
+  list-style: none;
+}
+.icon_yc ul li img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.white li img{
+  filter: invert(100%); 
+}
+.bot_hr{
+  height: 2px;
+  width: 200px;
+}
+.w{
+  filter: invert(100%);
+  height: 300px;
+}
+.b{
+  height: 70px;
+  height: 300px;
+}
