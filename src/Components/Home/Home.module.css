@@ -14,7 +14,7 @@
    filter: invert(100%); 
 }
 .cv{
-    background-image: url("/public/CV Button.png");
+    background-image: url("/src\assets\CV Button.png");
     background-size: cover; 
     background-position: center ;
     
@@ -42,7 +42,7 @@
     opacity: 0.5;
 }
 .contact{
-    background-image: url("/public/Touch Button.jpg");
+    background-image: url("/src\assets\Touch Button.jpg");
     background-size: cover; 
     background-position: center ;
     
